@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Assista a vídeos educativos sobre tecnologia e desenvolvimento web no Portal Tech.">
+
+    <title>Vídeos | Portal Tech</title>
+
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <div class="top">
+            <span class="logo">Portal Tech</span>
+            <span>Informação e aprendizado</span>
+
+            <button
+                class="menu-toggle"
+                id="menuButton"
+                type="button"
+                aria-expanded="false"
+                aria-controls="menu">
+                ☰ Menu
+            </button>
+        </div>
+    </header>
+
+    <!-- Menu de navegação -->
+    <nav id="menu" aria-label="Menu principal">
+        <a href="index.html">Início</a>
+        <a href="noticias.html">Notícias</a>
+        <a href="artigos.html">Artigos</a>
+        <a href="tutoriais.html">Tutoriais</a>
+        <a href="galeria.html">Galeria</a>
+        <a href="videos.html" aria-current="page">Vídeos</a>
+        <a href="podcast.html">Podcast</a>
+        <a href="agenda.html">Agenda</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="contato.html">Contato</a>
+
+        <a href="https://developer.mozilla.org/pt-BR/"
+           target="_blank"
+           rel="noopener noreferrer">
+            MDN ↗
+        </a>
+    </nav>
+
+    <!-- Conteúdo principal -->
+    <main class="wrap">
+
+        <section class="panel">
+
+            <h1>Vídeos do Portal Tech</h1>
+
+            <p>
+                Bem-vindo à nossa área de vídeos!
+                Aqui você pode assistir a conteúdos
+                educativos e ampliar seus conhecimentos
+                sobre tecnologia e desenvolvimento web.
+            </p>
+
+            <h2>Assista à nossa videoaula</h2>
+
+            <p>
+                Utilize o player abaixo para reproduzir,
+                pausar, ajustar o volume e assistir
+                ao vídeo em tela cheia.
+            </p>
+
+            <!-- Player de vídeo HTML5 -->
+            <video
+                controls
+                preload="metadata"
+                playsinline
+                style="display: block; width: 100%; max-width: 800px; height: auto;">
+
+                <source
+                    src="video/aula.mp4"
+                    type="video/mp4">
+
+                Seu navegador não suporta a reprodução de vídeos.
+
+            </video>
+
+            <p>
+                O vídeo faz parte dos materiais
+                apresentados no Portal Tech.
+            </p>
+
+        </section>
+
+        <!-- Conteúdos complementares -->
+        <section class="panel">
+
+            <h2>Continue aprendendo</h2>
+
+            <p>
+                Além dos vídeos, o Portal Tech
+                oferece outros conteúdos para
+                ajudar nos seus estudos.
+            </p>
+
+            <ul>
+                <li>
+                    <a href="tutoriais.html">
+                        Tutoriais de HTML, CSS e JavaScript
+                    </a>
+                </li>
+
+                <li>
+                    <a href="artigos.html">
+                        Artigos sobre tecnologia
+                    </a>
+                </li>
+
+                <li>
+                    <a href="podcast.html">
+                        Ouvir nosso podcast
+                    </a>
+                </li>
+
+                <li>
+                    <a href="agenda.html">
+                        Agenda de estudos
+                    </a>
+                </li>
+            </ul>
+
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>Portal Tech | Projeto acadêmico de Front-End</p>
+        <small>© 2026</small>
+    </footer>
+
+    <!-- JavaScript personalizado -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
